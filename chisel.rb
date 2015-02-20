@@ -81,7 +81,7 @@ class Chisel
 		end
 	end
 
-	def page_crunch
+	def parse
 		split
 		doc_hash
 		head_format
@@ -127,6 +127,6 @@ This is because
 ##### This is a NEW HEADING
 ')
 
-chi.page_crunch
+chi.parse
 
 
